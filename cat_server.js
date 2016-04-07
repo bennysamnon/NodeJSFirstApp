@@ -4,7 +4,7 @@ var app = express();
 var bodyParser = require('body-parser');
 
 var mongoose = require('mongoose');
-
+var i=3;
 mongoose.connect('mongodb://127.0.0.1:27017/cats');
 
 //if application type is json
